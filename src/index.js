@@ -1,11 +1,11 @@
 /**=============== Examples =================**/
-// require('./examples/taco-title-element');
-// require('./examples/taco-calculator-api');
+// require('./examples/vff-title-element');
+// require('./examples/vff-calculator-api');
 /**==========================================**/
 
-/**======= To define new taco element ==============**/
-// window.taco.define(element-name, element-class);
+/**======= To define new vff element ==============**/
+// window.vff.define(element-name, element-class);
 
-/**======= To extend taco with new functions =======**/
-// window.taco.extend(api-namespace, api-object);
+/**======= To extend vff with new functions =======**/
+// window.vff.extend(api-namespace, api-object);
 

@@ -1,4 +1,4 @@
-export default class TacoTitle extends HTMLElement {
+export default class VffTitle extends HTMLElement {
     constructor() {
         super();
     }
@@ -24,5 +24,5 @@ export default class TacoTitle extends HTMLElement {
     }
 }
 
-window.taco.define("taco-title", TacoTitle);
+window.vff.define("vff-title", VffTitle);
 

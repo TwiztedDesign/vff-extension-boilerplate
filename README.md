@@ -1,11 +1,11 @@
-# 🌮 Taco extension boilerplate 🌮
-![MIT License](https://img.shields.io/github/license/TwiztedDesign/taco.svg)
+# 🌮 VFF extension boilerplate 🌮
+![MIT License](https://img.shields.io/github/license/TwiztedDesign/vff.svg)
 
 
 # Usage
 Create a new empty repo on GitHub 
     
-    git clone https://github.com/TwiztedDesign/taco-extension-boilerplate.git [my-extension-name]
+    git clone https://github.com/TwiztedDesign/vff-extension-boilerplate.git [my-extension-name]
     cd [my-extension-name] 
    
 Clean the README
@@ -36,8 +36,8 @@ Install Dependencies
 ## Build
     npm run build
     
-This will generate the file /dist/tacoExt.js.  
-Include this in your html file after you include the taco script
+This will generate the file /dist/vff-ext.js.  
+Include this in your html file after you include the vff script
 
 ### usage examples
 To check out the examples, uncomment the require statements in the index.html   

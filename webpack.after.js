@@ -5,7 +5,7 @@ try{
 } catch (err){}
 
 
-var files = ['taco-ext.js','taco-ext.js.map'];
+var files = ['vff-ext.js','vff-ext.js.map'];
 var source = './dist/';
 
 function copyCB(src,dest){
@@ -21,5 +21,5 @@ if(config && config.destinations){
             fs.copy(source + files[j], dest + files[j], copyCB(source + files[j], dest + files[j]));
         }
     }
-    console.log('Copied taco to dev destinations (async)');
+    console.log('Copied vff to dev destinations (async)');
 }

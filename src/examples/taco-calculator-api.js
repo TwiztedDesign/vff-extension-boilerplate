@@ -1,19 +1,19 @@
-let tacoCalculatorApi = {
+let vffCalculatorApi = {
 
     add         : function(a,b){
-        return "Taco add result: " + (a + b);
+        return "VFF add result: " + (a + b);
     },
     subtract    : function(a,b){
-        return "Taco subtract result: " + (a - b);
+        return "VFF subtract result: " + (a - b);
     },
     multiply    : function(a,b){
-        return "Taco multiply result: " + (a * b);
+        return "VFF multiply result: " + (a * b);
     },
     divide      : function (a,b) {
-        return "Taco divide result: " + (a / b);
+        return "vff divide result: " + (a / b);
     }
 
 };
 
 
-window.taco.extend("calc", tacoCalculatorApi);
+window.vff.extend("calc", vffCalculatorApi);
