@@ -10,7 +10,7 @@ let vffCalculatorApi = {
         return "VFF multiply result: " + (a * b);
     },
     divide      : function (a,b) {
-        return "vff divide result: " + (a / b);
+        return "VFF divide result: " + (a / b);
     }
 
 };
